@@ -12,7 +12,7 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 public class Concert {
 
-    // TODO Implement this class.
+    // TODO Implement this class. test
 
     public Set<LocalDateTime> getDates() {
         return null;
