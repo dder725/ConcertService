@@ -52,25 +52,47 @@ public class Concert {
         return null;
     }
 
-
     public Long getId() {
         return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getTitle() {
         return title;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public String getImageName() {
         return imageName;
+    }
+
+    public void setImageName(String imageName) {
+        this.imageName = imageName;
     }
 
     public String getBlurb() {
         return blurb;
     }
 
+    public void setBlurb(String blurb) {
+        this.blurb = blurb;
+    }
+
+    public void setDates(List<LocalDateTime> dates) {
+        this.dates = dates;
+    }
+
     public List<Performer> getPerformers() {
         return performers;
     }
 
+    public void setPerformers(List<Performer> performers) {
+        this.performers = performers;
+    }
 }
